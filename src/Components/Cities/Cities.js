@@ -1,11 +1,12 @@
 import React from "react";
 
-const Cities = () => {
+import City from "../City/City";
 
+const Cities = (data) => {
 
     return (
         <div>
-            <City />
+            <City newCity={data} />
         </div>
     )
   };

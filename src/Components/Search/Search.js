@@ -1,18 +1,19 @@
 import React from "react";
 
-const search = () => {
+const Search = () => {
 
 
     return (
         <div>
+            <h2> Bye</h2>
             <form>
-                <input type={Text}>
+                <input type="text" placeholder="Hello">
                 </input>
-                <label for={""}><button type={submit}>Search</button></label>
+                <label><button>Search</button></label>
             </form>
         </div>
     )
   };
   
-  export default search;
+  export default Search;
   
