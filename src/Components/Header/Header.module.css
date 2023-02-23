@@ -3,7 +3,7 @@ header{
     padding: 1rem;
 }
 
-h1{
+.title{
     font-size: 50px;
     color: #3A98B9;
     animation-name: h1-bigger;
@@ -20,12 +20,12 @@ h1{
     }
 }
 
-img{
+.img{
     width:150px;
     border-radius: 20px;
 }
 
-section{
+.banner{
     display: flex;
     justify-content: space-around;
     align-items: center;
