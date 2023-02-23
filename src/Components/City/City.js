@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 const City = ({ name, main }) => {
 
-    console.log(main)
+    // console.log(main)
 
     return (
         <div>

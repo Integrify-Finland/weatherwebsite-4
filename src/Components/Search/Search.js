@@ -1,19 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Search = () => {
+const Search = (props) => {
+    const { onNewCity } = props;
+    const [search, setSearch] = useState('');
 
+    const handleChange = (e) => {
+        setSearch(e.target.value);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        onNewCity(search);
+
+        console.log(search);
+    }
 
     return (
         <div>
-            <h2> Bye</h2>
-            <form>
-                <input type="text" placeholder="Hello">
+
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="city name" onChange={handleChange}>
                 </input>
                 <label><button>Search</button></label>
             </form>
         </div>
     )
-  };
-  
-  export default Search;
-  
+};
+
+export default Search;
