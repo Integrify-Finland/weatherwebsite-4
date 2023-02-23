@@ -2,18 +2,18 @@ import React from "react";
 
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
+import Main from "./Components/main/Main";
 
 
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Main />
-      <Footer/>
+      <Footer />
     </div>
-   
-    
+
+
   );
 }
 
