@@ -2,11 +2,13 @@ import React from "react";
 
 import City from "../City/City";
 
-const Cities = (data) => {
+const Cities = ({ city }) => {
+
+    console.log(city)
 
     return (
         <div>
-            <City newCity={data} />
+            {city !== undefined && <City  {...city} />}
         </div>
     )
   };
