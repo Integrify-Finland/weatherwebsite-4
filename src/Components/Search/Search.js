@@ -12,7 +12,7 @@ const Search = (props) => {
         e.preventDefault();
         onNewCity(search);
 
-        console.log(search);
+        // console.log(search);
     }
 
     return (
